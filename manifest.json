@@ -1,9 +1,9 @@
 {
   "name": "Daft Help Centre",
   "author": "Dara Carolan",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "api_version": 1,
-  "default_locale": "en-us",
+  "default_locale": "en-gb",
   "settings": [
     {
       "label": "colors_group_label",
