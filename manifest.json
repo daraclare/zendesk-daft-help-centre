@@ -3,5 +3,6 @@
   "author": "Dara Carolan",
   "version": "1.0.0",
   "api_version": 1,
-  "default_locale": "en"
+  "default_locale": "en",
+  "settings": []
 }
