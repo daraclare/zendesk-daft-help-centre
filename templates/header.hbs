@@ -1,13 +1,11 @@
 <header class="header">
-  <p>testing</p>
   <div class="logo">
     {{#link 'help_center'}}
-    <img src="{{settings.daft_logo}}" alt="{{t 'home_page' name=help_center.name}}">
+      <img src="{{settings.logo}}" alt="{{t 'home_page' name=help_center.name}}">
     {{/link}}
   </div>
   <div class="nav-wrapper">
-    <span class="icon-menu" tabindex="0" role="button" aria-controls="user-nav" aria-expanded="false"
-      aria-label="{{t 'toggle_navigation'}}"></span>
+    <span class="icon-menu" tabindex="0" role="button" aria-controls="user-nav" aria-expanded="false" aria-label="{{t 'toggle_navigation'}}"></span>
     <nav class="user-nav" id="user-nav">
       {{link 'community'}}
       {{link 'new_request' class='submit-a-request'}}
