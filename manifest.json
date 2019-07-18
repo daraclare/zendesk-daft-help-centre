@@ -1,5 +1,10 @@
 {
-  "author": "Dara Carolan",
+  "name": "Zendesk Daft Help Centre",
+  "author": {
+    "name": "Dara Carolan",
+    "email": "dara.carolan@distilled.ie",
+    "url": "https://www.daft.ie/help"
+  },
   "defaultLocale": "en",
   "private": false,
   "location": {
