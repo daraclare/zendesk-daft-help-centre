@@ -1,10 +1,5 @@
 {
-  "name": "Zendesk Daft Help Centre",
-  "author": {
-    "name": "Dara Carolan",
-    "email": "dara.carolan@distilled.ie",
-    "url": "https://www.daft.ie/help"
-  },
+  "name": "Dara Carolan",
   "defaultLocale": "en",
   "private": false,
   "location": {
@@ -24,14 +19,6 @@
     }
   },
   "domainWhitelist": ["daft.ie"],
-  "parameters": [
-    {
-      "name": "token",
-      "type": "text",
-      "secure": true,
-      "required": true
-    }
-  ],
   "version": "1.0",
   "frameworkVersion": "2.0"
 }
