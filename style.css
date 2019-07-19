@@ -4147,21 +4147,21 @@ input[type="submit"][disabled] {
   justify-content: space-between;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .search-results {
     flex-direction: row;
   }
-}
+} */
 
 .search-results-column {
   flex: 1;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .search-results-column {
     flex: 0 0 45%;
   }
-}
+} */
 
 .search-results-list {
   margin-bottom: 25px;
