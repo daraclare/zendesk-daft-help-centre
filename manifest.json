@@ -217,10 +217,10 @@
       "label": "images_group_label",
       "variables": [
         {
-          "identifier": "homepage_background_image",
+          "identifier": "daft_homepage_background_image",
           "type": "file",
-          "description": "homepage_background_image_description",
-          "label": "homepage_background_image_label"
+          "description": "daft_homepage_background_image_description",
+          "label": "daft_homepage_background_image_label"
         },
         {
           "identifier": "community_background_image",
