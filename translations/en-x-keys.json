@@ -25,6 +25,6 @@
   "daft_homepage_background_image_label": "txt.help_center_copenhagen_theme.daft_homepage_background_image_label",
   "community_background_image_description": "txt.help_center_copenhagen_theme.community_background_image_description",
   "community_background_image_label": "txt.help_center_copenhagen_theme.community_background_image_label",
-  "community_image_description": "txt.help_center_copenhagen_theme.community_image_description",
-  "community_image_label": "txt.help_center_copenhagen_theme.community_image_label"
+  "daft_community_image_description": "txt.help_center_copenhagen_theme.daft_community_image_description",
+  "daft_community_image_label": "txt.help_center_copenhagen_theme.daft_community_image_label"
 }

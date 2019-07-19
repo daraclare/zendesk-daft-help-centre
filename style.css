@@ -1053,7 +1053,8 @@ input[type="submit"][disabled] {
 
 .community-image {
   min-height: 300px;
-  background-image: url($community_image);
+  background-image: url("https://c1.dmstatic.com/899/frontend/images/home-wideimg/hero-city.png");
+  background-color: $brand_color;
   background-position: center;
   background-repeat: no-repeat;
   max-width: 100%;
@@ -2078,7 +2079,8 @@ input[type="submit"][disabled] {
 
 /***** Community *****/
 .community-hero {
-  background-image: url($community_background_image);
+  background-image: url($daft_community_image);
+  background-color: $brand_color;
   margin-bottom: 10px;
 }
 
@@ -4147,21 +4149,21 @@ input[type="submit"][disabled] {
   justify-content: space-between;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .search-results {
     flex-direction: row;
   }
-}
+} */
 
 .search-results-column {
   flex: 1;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .search-results-column {
     flex: 0 0 45%;
   }
-}
+} */
 
 .search-results-list {
   margin-bottom: 25px;

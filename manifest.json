@@ -1,7 +1,7 @@
 {
   "name": "Daft Help Centre",
   "author": "Dara Carolan",
-  "version": "1.5.9",
+  "version": "1.6.0",
   "api_version": 1,
   "default_locale": "en-gb",
   "settings": [
@@ -229,10 +229,10 @@
           "label": "community_background_image_label"
         },
         {
-          "identifier": "community_image",
+          "identifier": "daft_community_image",
           "type": "file",
-          "description": "community_image_description",
-          "label": "community_image_label"
+          "description": "daft_community_image_description",
+          "label": "daft_community_image_label"
         }
       ]
     },
@@ -258,7 +258,7 @@
           "type": "checkbox",
           "description": "scoped_community_search_description",
           "label": "scoped_community_search_label",
-          "value": true
+          "value": false
         }
       ]
     },
@@ -289,42 +289,42 @@
           "type": "checkbox",
           "description": "article_author_description",
           "label": "article_author_label",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_article_comments",
           "type": "checkbox",
           "description": "article_comments_description",
           "label": "article_comments_label",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_follow_article",
           "type": "checkbox",
           "description": "follow_article_description",
           "label": "follow_article_label",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_recently_viewed_articles",
           "type": "checkbox",
           "description": "recently_viewed_articles_description",
           "label": "recently_viewed_articles_label",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_related_articles",
           "type": "checkbox",
           "description": "related_articles_description",
           "label": "related_articles_label",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_article_sharing",
           "type": "checkbox",
           "description": "article_sharing_description",
           "label": "article_sharing_label",
-          "value": true
+          "value": false
         }
       ]
     },
@@ -336,7 +336,7 @@
           "type": "checkbox",
           "description": "follow_section_description",
           "label": "follow_section_label",
-          "value": true
+          "value": false
         }
       ]
     },
