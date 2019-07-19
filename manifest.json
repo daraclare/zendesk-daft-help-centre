@@ -258,7 +258,7 @@
           "type": "checkbox",
           "description": "scoped_community_search_description",
           "label": "scoped_community_search_label",
-          "value": true
+          "value": false
         }
       ]
     },
@@ -310,21 +310,21 @@
           "type": "checkbox",
           "description": "recently_viewed_articles_description",
           "label": "recently_viewed_articles_label",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_related_articles",
           "type": "checkbox",
           "description": "related_articles_description",
           "label": "related_articles_label",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_article_sharing",
           "type": "checkbox",
           "description": "article_sharing_description",
           "label": "article_sharing_label",
-          "value": true
+          "value": false
         }
       ]
     },
