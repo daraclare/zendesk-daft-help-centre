@@ -1,7 +1,7 @@
 {
   "name": "Daft Help Centre",
   "author": "Dara Carolan",
-  "version": "1.5.9",
+  "version": "1.6.0",
   "api_version": 1,
   "default_locale": "en-gb",
   "settings": [
@@ -296,7 +296,7 @@
           "type": "checkbox",
           "description": "article_comments_description",
           "label": "article_comments_label",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_follow_article",
