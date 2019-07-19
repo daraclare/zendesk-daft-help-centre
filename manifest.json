@@ -1,7 +1,7 @@
 {
   "name": "Daft Help Centre",
   "author": "Dara Carolan",
-  "version": "1.5.8",
+  "version": "1.5.9",
   "api_version": 1,
   "default_locale": "en-gb",
   "settings": [
@@ -200,10 +200,10 @@
       "label": "brand_group_label",
       "variables": [
         {
-          "identifier": "logo",
+          "identifier": "daft_logo",
           "type": "file",
-          "description": "logo_description",
-          "label": "logo_label"
+          "description": "daft_logo_description",
+          "label": "daft_logo_label"
         },
         {
           "identifier": "favicon",
@@ -217,10 +217,10 @@
       "label": "images_group_label",
       "variables": [
         {
-          "identifier": "homepage_background_image",
+          "identifier": "daft_homepage_background_image",
           "type": "file",
-          "description": "homepage_background_image_description",
-          "label": "homepage_background_image_label"
+          "description": "daft_homepage_background_image_description",
+          "label": "daft_homepage_background_image_label"
         },
         {
           "identifier": "community_background_image",

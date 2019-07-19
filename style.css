@@ -14,10 +14,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-@media (min-width: 1024px) {
-  body > main {
-    min-height: 65vh;
-  }
+body > main {
+  min-height: calc(100vh - 225px);
 }
 
 h1,
@@ -770,7 +768,7 @@ input[type="submit"][disabled] {
 
 /***** Hero component *****/
 .hero {
-  background-image: url($homepage_background_image);
+  background-image: url($daft_homepage_background_image);
   background-position: center;
   background-size: cover;
   height: 500px;
@@ -876,9 +874,31 @@ input[type="submit"][disabled] {
   padding: 0;
 }
 
+.category {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category section {
+  box-sizing: border-box;
+  color: $brand_color;
+  display: flex;
+  flex: 1 0 450px;
+  flex-direction: column;
+  max-width: 100%;
+  text-align: center;
+}
+
+.category a {
+  color: $text_color;
+  line-height: 2;
+}
+
 @media (min-width: 768px) {
-  .blocks-list {
-    margin: 0 -15px;
+  .category section {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
   }
 }
 

@@ -5,7 +5,7 @@
 </section>
 
 <div class="container">
-  <section class="section knowledge-base">
+  {{!-- <section class="section knowledge-base">
     <section class="categories blocks">
       <ul class="blocks-list">
         {{#each categories}}
@@ -31,26 +31,88 @@
         {{/each}}
       </ul>
       {{pagination}}
-    </section>
+    </section> --}}
 
-    {{#if promoted_articles}}
-    <section class="articles">
-      <h3>{{t 'promoted_articles'}}</h3>
-      <ul class="article-list promoted-articles">
-        {{#each promoted_articles}}
-        <li class="promoted-articles-item">
-          <a href="{{url}}">
-            {{title}}
-
+  <section>
+    {{#if categories}}
+    <div class="knowledge-base">
+      {{#each categories}}
+      <section class="category">
+        {{#if ../has_multiple_categories}}
+        <h2><a href="{{url}}"></a>{{name}}</a></h2>
+        {{/if}}
+        {{#each sections}}
+        <section class="section">
+          <h3>
             {{#if internal}}
-            <span class="icon-lock" title="{{t 'internal'}}"></span>
+            <span class="visibility-internal" data-title="{{t 'internal'}}">
+              <span class="visibility-internal-icon"></span>
+            </span>
             {{/if}}
+            {{name}}
+          </h3>
+          {{#if articles}}
+          <ul class="article-list">
+            {{#each articles}}
+            <li {{#if promoted}} class="article-promoted" {{/if}}>
+              {{#if promoted}}
+              <span data-title="{{t 'promoted'}}">★</span>
+              {{/if}}
+              <a href="{{url}}">{{title}}</a>
+            </li>
+            {{/each}}
+          </ul>
+          {{#if more_articles}}
+          <a href="{{url}}" class="see-all-articles">
+            {{t 'show_all_articles' count=article_count}}
           </a>
-        </li>
+          {{/if}}
+          {{else}}
+          <i class="section-empty">
+            <a href="{{url}}">{{t 'empty'}}</a>
+          </i>
+          {{/if}}
+        </section>
+        {{else}}
+        <i class="category-empty">
+          <a href="{{url}}">{{t 'empty'}}</a>
+        </i>
         {{/each}}
-      </ul>
-    </section>
+
+        {{#if more_sections}}
+        <div>
+          <a href="{{url}}">{{t 'see_all_sections'}}</a>
+        </div>
+        {{/if}}
+      </section>
+      {{/each}}
+
+      {{pagination}}
+    </div>
     {{/if}}
+  </section>
+
+
+
+
+  {{#if promoted_articles}}
+  <section class="articles">
+    <h3>{{t 'promoted_articles'}}</h3>
+    <ul class="article-list promoted-articles">
+      {{#each promoted_articles}}
+      <li class="promoted-articles-item">
+        <a href="{{url}}">
+          {{title}}
+
+          {{#if internal}}
+          <span class="icon-lock" title="{{t 'internal'}}"></span>
+          {{/if}}
+        </a>
+      </li>
+      {{/each}}
+    </ul>
+  </section>
+  {{/if}}
   </section>
 
   {{!-- {{#if help_center.community_enabled}}
@@ -64,9 +126,9 @@
     </section>
   {{/if}} --}}
 
-  <section class="section activity">
+  {{!-- <section class="section activity">
     {{#if settings.show_recent_activity}}
     {{recent_activity}}
     {{/if}}
-  </section>
+  </section> --}}
 </div>
