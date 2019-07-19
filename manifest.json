@@ -200,10 +200,10 @@
       "label": "brand_group_label",
       "variables": [
         {
-          "identifier": "logo",
+          "identifier": "daft_logo",
           "type": "file",
-          "description": "logo_description",
-          "label": "logo_label"
+          "description": "daft_logo_description",
+          "label": "daft_logo_label"
         },
         {
           "identifier": "favicon",
